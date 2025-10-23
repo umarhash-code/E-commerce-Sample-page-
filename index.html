@@ -18,8 +18,13 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button class="search-button">🔍</button>
+        </div>
         <div class="cart-icon">
             <span>🛒</span>
+            <span class="cart-count">0</span>
         </div>
     </nav>
 
@@ -32,6 +37,31 @@
         </div>
     </section>
 
+    <!-- Special Offers Section -->
+    <section class="special-offers">
+        <h2>Special Offers</h2>
+        <div class="offers-grid">
+            <div class="offer-card">
+                <div class="offer-badge">SAVE 20%</div>
+                <h3>Flash Sale</h3>
+                <p>Get 20% off on all electronics</p>
+                <span class="offer-time">Ends in 24h</span>
+            </div>
+            <div class="offer-card">
+                <div class="offer-badge">NEW</div>
+                <h3>Free Shipping</h3>
+                <p>On orders above $50</p>
+                <span class="offer-time">Limited Time</span>
+            </div>
+            <div class="offer-card">
+                <div class="offer-badge">BUNDLE</div>
+                <h3>Buy 2 Get 1</h3>
+                <p>On selected accessories</p>
+                <span class="offer-time">Weekend Only</span>
+            </div>
+        </div>
+    </section>
+
     <!-- Featured Products -->
     <section class="products" id="products">
         <h2>Featured Products</h2>
@@ -39,49 +69,89 @@
             <!-- Product Card 1 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="cam.jpg" alt="Product 1">
+                    <img src="images/cam.jpg" alt="Professional Camera">
                 </div>
                 <div class="product-info">
-                    <h3>Camera</h3>
+                    <div class="product-category">Electronics</div>
+                    <h3>Professional Camera</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(42)</span>
+                    </div>
                     <p class="price">$99.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
             </div>
 
             <!-- Product Card 2 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="photo-1523275335684-37898b6baf30.jpg" alt="Product 2">
+                    <img src="images/photo-1523275335684-37898b6baf30.jpg" alt="Smart Watch">
                 </div>
                 <div class="product-info">
+                    <div class="product-category">Accessories</div>
                     <h3>Watch</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(28)</span>
+                    </div>
                     <p class="price">$149.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
             </div>
 
             <!-- Product Card 3 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="as.jpg" alt="Product 3">
+                    <img src="images/as.jpg" alt="Stylish Bottle">
                 </div>
                 <div class="product-info">
+                    <div class="product-category">Lifestyle</div>
                     <h3>Bottle</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(35)</span>
+                    </div>
                     <p class="price">$79.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
             </div>
 
             <!-- Product Card 4 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="ss.jpg" alt="Product 4">
+                    <img src="images/ss.jpg" alt="Designer Bag">
                 </div>
                 <div class="product-info">
+                    <div class="product-category">Fashion</div>
                     <h3>Bag</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(56)</span>
+                    </div>
                     <p class="price">$199.99</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates on new products and special offers!</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button class="subscribe-button">Subscribe</button>
             </div>
         </div>
     </section>
